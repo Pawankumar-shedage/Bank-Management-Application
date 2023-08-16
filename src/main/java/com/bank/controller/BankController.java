@@ -13,6 +13,11 @@ public class BankController {
 		return "home";
 	}
 	
+	@GetMapping("AboutUs")
+	public String about()
+	{
+		return "AboutUs";
+	}
 	
 	
 	

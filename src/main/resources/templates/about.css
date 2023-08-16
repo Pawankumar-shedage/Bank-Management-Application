@@ -1,0 +1,77 @@
+/* Custom styles for About Section */
+
+
+body{
+    font-size:larger;
+}
+
+/* Style the main heading */
+h2.text-center {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Style the mission and core values section */
+.col-md-6 {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+
+
+.col-md-6 h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.col-md-6 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+}
+
+/* Style the contact section */
+.text-center.mt-4 {
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.text-center.mt-4 h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.text-center.mt-4 a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Override Bootstrap button style */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-6 {
+        padding: 15px;
+    }
+}
